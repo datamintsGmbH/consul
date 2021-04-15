@@ -3,3 +3,12 @@
 // * English: https://github.com/consul/consul/blob/master/CUSTOMIZE_EN.md#css
 // * Spanish: https://github.com/consul/consul/blob/master/CUSTOMIZE_ES.md#css
 //
+
+// Use Unterschleißheim main color.
+$brand: #0091c8;
+
+// Use font of USH website.
+$body-font-family: "Verdana", sans-serif !important;
+
+// Make font smaller Verdana itself is quite large.
+$base-font-size: 14px;

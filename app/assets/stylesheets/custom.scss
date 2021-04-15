@@ -2,3 +2,17 @@
 //
 // You can also create SCSS files in the app/assets/stylesheets/custom/
 // folder and they will be loaded automatically.
+
+// Fix logo display.
+h1.top-bar-title {
+    a {
+        padding: 5px;
+        background: #fff;
+        display: block;
+
+        img {
+            float: none !important;
+            display: block;
+        }
+    }
+}
