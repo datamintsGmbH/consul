@@ -1,0 +1,18 @@
+de:
+  admin:
+    shared:
+      search:
+        label:
+          booths: "Suche nach Wahlkabinen anhand von Name oder Standort"
+          budget_investments: "Suche nach Budgetinvestitionen anhand von Titel, Beschreibung oder heading"
+          debates: "Suche nach Diskussionen anhand von Titel oder Beschreibung"
+          legislation_processes: "Suche nach Gesetzgebungsprozessen anhand von Titel oder Beschreibung"
+          legislation_proposals: "Suche nach Gesetzgebungsvorschlägen anhand von Titel oder Beschreibung"
+          local_census_records: "Suche nach Registern anhand von Dokumentennummer"
+          organizations: "Name, E-Mail oder Telefon"
+          poll_officers: "Suche nach Vorsitzenden der Abstimmung"
+          poll_questions: "Suche nach Abstimmungsfragen"
+          polls: "Suche nach Abstimungen anhand von Name oder Beschreibung"
+          proposals: "Suche nach Vorschlägen anhand von Titel, Code, Beschreibung oder question"
+          users: "Suche nach Benutzer*innen anhand von Name oder E-Mail"
+        search: "Suchen"
