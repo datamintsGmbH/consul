@@ -1,0 +1,26 @@
+<div class="small-12 medium-9 column">
+  <ul>  
+    <li>
+      <%= layout_menu_link_to 'Projekt #1',
+                              '/projekt-1',
+                              current_page?('/projekt-1'),
+                              accesskey: "1" %>
+    </li>
+
+    <li>
+      <%= layout_menu_link_to 'Gesetzgebungsverfahren #1',
+                              '/legislation/processes/1',
+                              current_page?('/legislation/processes/1'),
+                              accesskey: "2" %>
+    </li>
+
+    <% if feature?(:help_page) %>
+      <li>
+        <%= layout_menu_link_to t("layouts.header.help"),
+                                help_path,
+                                current_page?(help_path),
+                                accesskey: "7" %>
+      </li>
+    <% end %>
+  </ul>
+</div>
