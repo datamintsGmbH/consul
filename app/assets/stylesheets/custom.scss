@@ -16,3 +16,56 @@ h1.top-bar-title {
         }
     }
 }
+
+.wrapper > header,
+.top-bar {
+    background: #fff;
+}
+
+.subnavigation {
+    background: $brand;
+
+    a {
+        $color: #fff;
+
+        color: $color;
+
+        &:hover,
+        &:focus {
+            color: darken($color, 10%);
+        }
+    }
+}
+
+.dropdown.menu {
+    > li {
+        &.is-active {
+            a {
+                color: $brand;
+            }
+        }
+
+        &.is-dropdown-submenu-parent {
+            > a {
+                &:after {
+                    border-color: $brand transparent transparent;
+                }
+            }
+        }
+    }
+}
+
+.top-bar {
+    .menu {
+        > li {
+            a {
+                color: $brand;
+
+                &:hover,
+                &:focus {
+                    color: darken($brand, 20%);
+                }
+            }
+        }
+    }
+}
