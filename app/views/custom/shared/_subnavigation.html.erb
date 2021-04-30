@@ -7,19 +7,7 @@
                               accesskey: "1" %>
     </li>
 
-    <li>
-      <%= layout_menu_link_to 'Projekt #1',
-                              '/projekt-1',
-                              current_page?('/projekt-1'),
-                              accesskey: "2" %>
-    </li>
-
-    <li>
-      <%= layout_menu_link_to 'Gesetzgebungsverfahren #1',
-                              '/legislation/processes/1',
-                              current_page?('/legislation/processes/1'),
-                              accesskey: "3" %>
-    </li>
+    <%= raw content_block("subnavigation_left", I18n.locale) %>
 
     <% if feature?(:help_page) %>
       <li>
