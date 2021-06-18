@@ -1,0 +1,5 @@
+de:
+  comments:
+    actions:
+      confirm_delete: "Sind Sie sicher? Der Kommentar wird dadurch gelöscht und kann nicht wiederhergestellt werden."
+      delete: "Kommentar löschen"
