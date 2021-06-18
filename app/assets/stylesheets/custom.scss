@@ -89,3 +89,13 @@ body > header .external-links,
 .wrapper > header .external-links {
   padding: 0;
 }
+
+// Hide back links for some items in the frontend.
+.wrapper {
+  .polls-show,
+  .legislation-hero {
+    a.back {
+      display: none;
+    }
+  }
+}
