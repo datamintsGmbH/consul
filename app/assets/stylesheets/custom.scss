@@ -129,3 +129,20 @@ html {
 .menu.simple h2 {
   font-size: 1rem;
 }
+
+// Add separator for footer links.
+footer {
+  .subfooter {
+    li.inline-block {
+      &:after {
+        content: ' | '
+      }
+
+      &:last-child {
+        &:after {
+          content: '';
+        }
+      }
+    }
+  }
+}
