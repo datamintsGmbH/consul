@@ -17,11 +17,13 @@ h1.top-bar-title {
     }
 }
 
+// Fix background for some parts.
 .wrapper > header,
 .top-bar {
     background: #fff;
 }
 
+// Fix colors for 'subnavigation' (which is the main nav).
 .subnavigation {
     background: $brand;
 
@@ -42,6 +44,7 @@ h1.top-bar-title {
     }
 }
 
+// Fix colors in dropdown menu.
 .dropdown.menu {
     > li {
         &.is-active {
@@ -60,6 +63,7 @@ h1.top-bar-title {
     }
 }
 
+// Fix colors for top bar.
 .top-bar {
     .menu {
         > li {
@@ -73,4 +77,15 @@ h1.top-bar-title {
             }
         }
     }
+}
+
+// Fix color for mobile menu opener.
+.menu-button {
+  color: $brand;
+}
+
+// Don't show padding for additional links.
+body > header .external-links,
+.wrapper > header .external-links {
+  padding: 0;
 }
