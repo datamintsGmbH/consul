@@ -118,3 +118,15 @@ body > header .external-links,
     cursor: default;
   }
 }
+
+// Make font sizes a bit bigger.
+html {
+  font-size: 105%;
+}
+.callout {
+  font-size: 1rem;
+}
+.tabs h2,
+.tabs h3 {
+  font-size: 1rem;
+}
