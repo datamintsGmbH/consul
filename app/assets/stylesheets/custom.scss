@@ -146,3 +146,37 @@ footer {
     }
   }
 }
+
+// Make mobile menu nicer and easier to use.
+@include breakpoint(small down) {
+  #responsive-menu {
+    ul.menu {
+      border: 1px solid $brand;
+
+      ul.submenu {
+        margin: 0;
+        padding: 0;
+        border: none;
+      }
+    }
+
+    li {
+      margin-bottom: 0;
+
+      a {
+        padding: 0.7rem 1rem;
+        line-height: 1;
+      }
+    }
+
+    .show-for-small-only {
+      .row {
+        margin: 0;
+
+        .column {
+          padding: 0;
+        }
+      }
+    }
+  }
+}
