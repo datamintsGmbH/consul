@@ -99,3 +99,22 @@ body > header .external-links,
     }
   }
 }
+
+// Beautify polls a bit.
+.poll-question-answers {
+  // Make links more prominent.
+  .button.hollow.secondary {
+    border: 2px solid $brand;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      background: lighten($brand, 50%);
+    }
+  }
+
+  // Non-clickable things shouldn't have pointer cursor.
+  span.button {
+    cursor: default;
+  }
+}
