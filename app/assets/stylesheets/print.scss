@@ -1,0 +1,205 @@
+/* Styles for print */
+
+@import "settings";
+@import "consul_settings";
+@import "custom_settings";
+@import "foundation";
+
+@import "fonts";
+
+@include foundation-print-styles;
+@include foundation-typography;
+@include foundation-table;
+
+/* Print proposals */
+
+.admin-content {
+  margin-top: 0 !important;
+}
+
+.tags a {
+  @extend .hide-for-print;
+}
+
+.supports {
+  @extend .hide-for-print;
+}
+
+.label-proposal {
+  @extend .hide-for-print;
+}
+
+#print_link {
+  @extend .hide-for-print;
+}
+
+#responsive_menu {
+  @extend .hide-for-print;
+}
+
+.admin-sidebar {
+  @extend .hide-for-print;
+}
+
+img.left {
+  @extend .hide-for-print;
+}
+
+.proposal-info a {
+  @extend .hide-for-print;
+}
+
+.icon-comments {
+  @extend .hide-for-print;
+}
+
+.menu-icon {
+  @extend .hide-for-print;
+}
+
+.icon-proposals {
+  @extend .hide-for-print;
+}
+
+li.name {
+  @extend .hide-for-print;
+}
+
+li.kind {
+  @extend .hide-for-print;
+}
+
+p.proposal-info span:nth-child(3) {
+  @extend .hide-for-print;
+}
+
+.top-links {
+  @extend .hide-for-print;
+}
+
+.button {
+  @extend .hide-for-print;
+}
+
+.change-user {
+  @extend .hide-for-print;
+}
+
+input[type="submit"] {
+  @extend .hide-for-print;
+}
+
+.filters h2 {
+  margin: 0 !important;
+  font-size: 20px !important;
+  line-height: 20px !important;
+  width: auto !important;
+}
+
+.admin h2 {
+  font-size: 20px !important;
+  line-height: 20px !important;
+}
+
+.select-order {
+  border: 0 !important;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 20px !important;
+  margin-left: 10px !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  margin-right: 0 !important;
+  padding: 0 !important;
+}
+
+p.proposal-info {
+  margin-left: -6px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+a:after {
+  content: none !important;
+}
+
+.proposal .panel {
+  min-height: auto !important;
+  margin: 0 !important;
+  padding-bottom: 0 !important;
+  padding-left: 0 !important;
+}
+
+.proposal .panel .proposal-content {
+  min-height: auto !important;
+}
+
+.proposal .panel h3 {
+  min-height: auto !important;
+  font-size: 16px !important;
+}
+
+.proposal .panel .proposal-description {
+  height: auto !important;
+  margin-bottom: 0 !important;
+}
+
+.proposal .panel {
+  border-left: 0 !important;
+  border-right: 0 !important;
+  border-top: 0 !important;
+}
+
+.for-print-only {
+  @extend .show-for-print;
+
+  p {
+    font-size: 14px !important;
+    line-height: 24px !important;
+  }
+}
+
+.not-print {
+  @extend .hide-for-print;
+}
+
+.date-for-print {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.filters {
+  height: 48px !important;
+}
+
+header {
+  @extend .hide-for-print;
+}
+
+div.footer {
+  @extend .hide-for-print;
+}
+
+#tab-comments {
+  @extend .hide-for-print;
+}
+
+.polls-show-header {
+  aside {
+    @extend .hide-for-print;
+  }
+}
+
+.wrapper {
+  a.back {
+    @extend .hide-for-print;
+  }
+}
+
+.polls-results-stats {
+  .sidebar {
+    @extend .hide-for-print;
+  }
+}
